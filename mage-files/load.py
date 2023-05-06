@@ -20,7 +20,7 @@ def export_data_to_big_query(data, **kwargs) -> None:
     config_profile = 'default'
 
     for key, value in data.items():
-        table_id = 'united-bebop-385407.ola_de_yt.{}'.format(key)
+        table_id = 'united-bebop-385407.nyc_de_yt.{}'.format(key)
         BigQuery.with_config(ConfigFileLoader(config_path, config_profile)).export(
             DataFrame(value),
             table_id,
