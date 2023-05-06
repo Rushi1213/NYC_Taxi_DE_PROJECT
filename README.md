@@ -1,8 +1,8 @@
-# OLA Data Analytics | Modern Data Engineering GCP Project
+# NYC Taxi Data Analytics | Modern Data Engineering GCP Project
 
 ## Introduction
 
-The goal of this project is to perform data analytics on Ola data using various tools and technologies, including GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio.
+The goal of this project is to perform data analytics on NYC taxi data using various tools and technologies, including GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio.
 
 ## Architecture 
 <img src="architecture.jpg">
